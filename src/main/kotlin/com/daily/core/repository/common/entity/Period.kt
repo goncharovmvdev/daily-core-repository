@@ -5,6 +5,7 @@ interface Period {
     val from: Long?
     val to: Long?
 
+    @Suppress("Unused")
     data class DataImpl(
 
         override val from: Long? = null,

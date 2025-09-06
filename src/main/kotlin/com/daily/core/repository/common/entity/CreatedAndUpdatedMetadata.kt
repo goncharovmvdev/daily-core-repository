@@ -7,6 +7,7 @@ interface CreatedAndUpdatedMetadata {
     val createdAt: Long?
     val updatedAt: Long?
 
+    @Suppress("Unused")
     data class DataImpl(
 
         override val createdBy: String? = null,

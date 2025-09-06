@@ -3,6 +3,7 @@ package com.daily.core.repository.event
 import com.daily.core.repository.common.entity.Period
 import com.daily.core.repository.event.entity.EventEntity
 
+@Suppress("Unused")
 interface EventRepository {
 
     fun save(
