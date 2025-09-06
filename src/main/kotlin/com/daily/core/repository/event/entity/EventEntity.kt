@@ -1,4 +1,4 @@
-package com.daily.core.repository.event.entity;
+package com.daily.core.repository.event.entity
 
 import com.daily.core.repository.common.entity.CreatedAndUpdatedMetadata
 import com.daily.core.repository.common.entity.Period
@@ -11,6 +11,7 @@ interface EventEntity {
     val period: Period?
     val createdAndUpdatedMetadata: CreatedAndUpdatedMetadata?
 
+    @Suppress("Unused")
     data class DataImpl(
 
         override val id: String? = null,
